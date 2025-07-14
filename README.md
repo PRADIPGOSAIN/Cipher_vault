@@ -1,45 +1,85 @@
-# 🔐 Elite Password Vault - God-Level Military-Grade Security Suite
+# 🔐 Elite Password Vault – God-Level Military-Grade Security Suite
 
 **© 2025 Pradip Gosain — Elite Enhanced Edition**  
 ![Elite Vault Banner](https://example.com/vault-banner.png) <!-- Replace with your own banner URL -->
 
-A next-generation, **god-level secure password manager** built in Python, combining **quantum-resistant encryption**, **military-grade authentication**, and **zero-knowledge design** — all in a sleek, offline CLI-based tool.
+A next-generation **god-level secure password manager** built in Python. Combines **quantum-resistant encryption**, **military-grade authentication**, and **zero-knowledge architecture** — all wrapped into a sleek, offline CLI vault.
 
 ---
 
 ## 🧠 Overview
 
-The **Elite Password Vault** is engineered for professionals, hackers, developers, and privacy fanatics who want **absolute control** over their secrets. It fuses the best of modern cryptography (AES-256-GCM, ChaCha20) with advanced security practices (Argon2, MFA, secure clipboard, breach protection) into one **bulletproof vault**.
+Designed for cybersecurity pros, developers, hackers, and privacy absolutists who demand **total local control**. This tool fuses modern cryptography (AES-256-GCM, ChaCha20) with hardened security principles (Argon2, MFA, secure clipboard, breach detection) into one **bulletproof personal vault**.
 
-Whether you're defending from hackers, malware, or even future quantum threats — **this vault is built to survive it all**.
+No cloud. No sync. No compromise.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
-### 🔒 Encryption & Key Management
-- **Multi-Layer Encryption**: AES-256-GCM + ChaCha20 + Lattice-based fallback
-- **Quantum-Resistant Algorithms**: Post-quantum cryptographic backbone
-- **Key Derivation**: Argon2id (memory-hard) or PBKDF2 (600,000 iterations)
+### 🔐 Encryption & Key Management
+- Multi-layer encryption: **AES-256-GCM + ChaCha20**
+- **Post-quantum-ready algorithms** (optional lattice-based fallback)
+- **Key derivation**: Argon2id (memory-hard) or PBKDF2 (600,000 iterations)
+- **Encrypted local storage** (zero external calls)
 
 ### 🛡️ Authentication
-- **Master Password** (never stored, never sent)
-- **Keyfile Support** (2FA layer)
-- **Optional YubiKey & Biometrics**
-- **Zero-Knowledge**: All encryption/decryption is local — nothing leaves your device
+- **Master password** (never stored or transmitted)
+- **Keyfile-based 2FA** layer
+- Optional **YubiKey** or **Biometric** support (extensible hooks)
+- **Zero-Knowledge**: All encryption/decryption stays local
 
-### 🧰 Security & Usability
-- ✅ **Clipboard Auto-Clear** after 10 seconds
-- ✅ **Password Strength Checker** using zxcvbn
-- ✅ **Tamper-Proof Audit Logging**
-- ✅ **Secure Memory Wiping** (DoD 5220.22-M)
-- ✅ **Offline-Only Mode** — No cloud, no sync, no leaks
-- ✅ **Real-Time Breach Monitoring** (optional integration)
+### 🔧 Security & Usability
+- ✅ Clipboard auto-clear (10 seconds)
+- ✅ Password strength rating with `zxcvbn`
+- ✅ Tamper-proof **audit logs**
+- ✅ Secure memory wiping (DoD 5220.22-M compliant)
+- ✅ **Offline-only mode**
+- ✅ Optional breach monitoring via [HaveIBeenPwned API](https://haveibeenpwned.com)
 
-### 🔥 Elite-Only Features
-- 🚨 **Emergency Lockdown Protocol**: Instantly wipe the vault in a crisis
-- 🔐 **Encrypted Local Backup & Restore**
-- 🧪 **Biometric Authentication Hooks** (for advanced users)
+### 🚨 Elite-Only Features
+- **Emergency Lockdown**: Instant vault wipe (panic mode)
+- **Encrypted backups** and restore option
+- Extensible **biometric auth support** (FaceID, fingerprint)
+
+---
+
+## ⚠️ Legal & Ethical Use
+
+This project is **open-source for ethical, personal, and educational use** only.
+
+### ❌ You may **NOT**:
+- ❌ Resell, rebrand, or commercialize this project
+- ❌ Remove author credit or claim authorship
+- ❌ Use in closed-source/commercial projects without **written permission**
+
+Violators will face:
+- DMCA takedowns
+- Public license violations
+- Legal consequences
+
+💣 Build your own tools. Real respect comes from original work.
+
+---
+
+## 📄 License
+
+Licensed under **GNU AGPL-3.0**.
+
+### ✅ You MAY:
+- Use freely for personal, educational, or research purposes
+- Modify, extend, or share — **with full credit**
+
+### ❌ You MAY NOT:
+- Sell, close-source, or obfuscate this code
+- Remove this license or author's name
+
+---
+
+## 👨‍💻 Author
+
+**Pradip Gosain**  
+GitHub: [github.com/pradipgosain](https://github.com/pradipgosain)
 
 ---
 
@@ -50,39 +90,3 @@ git clone https://github.com/pradipgosain/elite-password-vault.git
 cd elite-password-vault
 pip install -r requirements.txt
 python vault_elite.py
-
-⚠️ WARNING — DO NOT STEAL THIS PROJECT
-This project is open-source for learning, ethical use, and personal protection only.
-You are NOT allowed to:
-
-🚫 Sell, resell, or rebrand this tool
-🚫 Publish it under a different name
-🚫 Claim authorship or remove credit
-🚫 Use it in closed-source or commercial software without written permission
-
-Violators may face DMCA takedown, license violation reports, or legal action.
-
-💣 Don’t be a script kiddie. Build your own tools if you want respect.
-
-📄 License
-Licensed under the GNU AGPL-3.0 License.
-
-✅ You May:
-Use it for free, forever
-
-Modify, improve, or share it with full credit
-
-Use it in personal, educational, or research projects
-
-❌ You May Not:
-Sell it or use it commercially without permission
-
-Close-source or obfuscate it
-
-Remove, hide, or alter the author's identity
-
-❤️ Built with care by Pradip Gosain — give credit, don’t copy.
-
-👨‍💻 Author
-Pradip Gosain
-🔗 GitHub: github.com/pradipgosain
