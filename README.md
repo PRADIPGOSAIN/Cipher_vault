@@ -50,3 +50,39 @@ git clone https://github.com/pradipgosain/elite-password-vault.git
 cd elite-password-vault
 pip install -r requirements.txt
 python vault_elite.py
+
+⚠️ WARNING — DO NOT STEAL THIS PROJECT
+This project is open-source for learning, ethical use, and personal protection only.
+You are NOT allowed to:
+
+🚫 Sell, resell, or rebrand this tool
+🚫 Publish it under a different name
+🚫 Claim authorship or remove credit
+🚫 Use it in closed-source or commercial software without written permission
+
+Violators may face DMCA takedown, license violation reports, or legal action.
+
+💣 Don’t be a script kiddie. Build your own tools if you want respect.
+
+📄 License
+Licensed under the GNU AGPL-3.0 License.
+
+✅ You May:
+Use it for free, forever
+
+Modify, improve, or share it with full credit
+
+Use it in personal, educational, or research projects
+
+❌ You May Not:
+Sell it or use it commercially without permission
+
+Close-source or obfuscate it
+
+Remove, hide, or alter the author's identity
+
+❤️ Built with care by Pradip Gosain — give credit, don’t copy.
+
+👨‍💻 Author
+Pradip Gosain
+🔗 GitHub: github.com/pradipgosain
